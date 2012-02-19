@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="RTFView">
+      <UniqueIdentifier>{0fac5bcb-a50e-421e-a8a7-a943c339feb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RTFView\Source Files">
+      <UniqueIdentifier>{f79d6351-ab66-470f-97c4-9431acdda75b}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="RTFView\Header Files">
+      <UniqueIdentifier>{be18920e-f509-4859-bf75-40daa6915fab}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="PS2 Icon">
+      <UniqueIdentifier>{abe39519-a831-4cb1-a932-4669b5b392c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PS2 Icon\Header Files">
+      <UniqueIdentifier>{e62ea727-fe90-416b-92ae-87567c1f6f81}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="PS2 Icon\Source Files">
+      <UniqueIdentifier>{62756fe0-3892-4617-88c0-efe890b55b00}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="app.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RTFTool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtfview\DAT.cpp">
+      <Filter>RTFView\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtfview\TGA.cpp">
+      <Filter>RTFView\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtfview\IMD.cpp">
+      <Filter>RTFView\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtfview\linked_lists.cpp">
+      <Filter>RTFView\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtfview\OBJExport.cpp">
+      <Filter>RTFView\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtfview\p6t_v2.cpp">
+      <Filter>RTFView\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtfview\rtfview_v3.cpp">
+      <Filter>RTFView\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="About.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ps2_icon.cpp">
+      <Filter>PS2 Icon\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TM2.cpp">
+      <Filter>RTFView\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="binfile.cpp">
+      <Filter>RTFView\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArcBall\ArcBall.cpp">
+      <Filter>RTFView\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Form1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtfview\common.h">
+      <Filter>RTFView\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtfview\DAT.h">
+      <Filter>RTFView\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtfview\imd.h">
+      <Filter>RTFView\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtfview\linked_lists.h">
+      <Filter>RTFView\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtfview\OBJExport.h">
+      <Filter>RTFView\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtfview\p6t.h">
+      <Filter>RTFView\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtfview\TGA.h">
+      <Filter>RTFView\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RTFTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="COpenGL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtfview_bridge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="About.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="icon_common.h">
+      <Filter>PS2 Icon\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="binfile.h">
+      <Filter>RTFView\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArcBall\ArcBall.h">
+      <Filter>RTFView\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resX">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="About.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
