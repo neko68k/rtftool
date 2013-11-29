@@ -1,0 +1,35 @@
+================================================
+= RTFTool - R-Type Final Asset Viewer/Exporter =
+================================================
+
+---Getting Started---
+Copy these files from your R-Type Final disc to the same folder as RTFTool.exe.
+-COMMON.DAT	\ Contains all the textures in the game.
+-COMMON.FAT	/
+-ROOT.DAT	\Contains all the models and textures they need.
+-ROOT.FAT	/
+
+---Viewing Game Models---
+*Open COMMON.FAT(not COMMON.DAT, this is important!) in RTFTool. All of the main game models are in this file.
+*Choose File|Export|All
+	-This exports all the DAT files to a folder called /export
+*You may now open any of the exported DAT files.
+*View files by double clicking.
+*Export from File menu or right click on the file list.
+
+File types are as follows:
+*P6T - Texture
+	All P6T are supported and can be exported as 32-bit TGA, flipped or unflipped.
+*IMD - Model
+	Not all models are supported. Not all features on the supported models are 
+	implemented. Sometimes models don't load the first time, try again. The rotation
+	interface sucks, I'm sorry. Drag on the view to rotate. Right click to reset view.
+*TM2 - PS2 Image 
+	This tool doesn't support viewing or converting(but exporting works) these. XN View supports these.
+*INT - Streaming Music
+	Inside STR.FAT. They are PS2 ADPCM, I'm not sure how to listen properly.
+*HD,BD,SQ - Unknown
+	Probably sound effects. Inside SE.FAT I dont know anything else about these files.
+*ICO,SYS - PS2 Memory Card Icon
+	Unsupported in this program but there are others that read them if exported.
+
